@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+      
+        
+      table{
+
+        border: 1px solid;
+        width: 800px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        text-align: center;
+        }
+        caption{
+
+        font-size: 21px;
+        margin-bottom: 20px;
+        }
+        col:nth-child(1){
+        background-color: #eee;
+        width: 20%;
+                
+        background-color: #eee;
+        }
+        col:nth-child(2){
+
+        }
+        col:nth-child(3){
+
+        width: 15%;
+        }
+        col:nth-child(4){
+
+        width: 15%;
+        }
+        col:nth-child(5){
+
+        }
+        th{
+
+        background-color: #ccc;
+        border: 1px solid;
+        }
+        th:nth-child(even){
+        background-color: #ddd;
+        }
+        td{
+
+        border: 1px solid;
+        }
+        td:nth-child(2){
+
+        text-align: left;
+        padding-left: 20px;
+        }
+        table.b{
+
+        }
+        table.b th,table.b td{
+            height: 21px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>결제내역확인</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th>결제일</th>
+            <th>결제 상품</th>
+            <th>결제금액</th>
+            <th>결제방법</th>
+            <th>처리상황</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2012년 09월 28일</td>
+            <td>입찰정보서비스(1개월)</td>
+            <td>24,750원</td>
+            <td>신용카드</td>
+            <td>결제처리완료</td>
+          </tr>
+          <tr>
+            <td>2012년 07월 13일</td>
+            <td>프리미엄 1:1 분석서비스 - C형</td>
+            <td>300,000원</td>
+            <td>신용카드</td>
+            <td>결제처리완료</td>
+          </tr>
+          <tr>
+            <td>2012년 05월 29일</td>
+            <td>입찰정보서비스(1개월)</td>
+            <td>24,750원</td>
+            <td>신용카드</td>
+            <td>결제처리완료</td>
+          </tr>
+          <tr>
+            <td>2012년 03월 13일</td>
+            <td>프리미엄 1:1 분석서비스 - C형</td>
+            <td>300,000원</td>
+            <td>신용카드</td>
+            <td>결제처리완료</td>
+          </tr>
+          <tr>
+            <td>2012년 02월 13일</td>
+            <td>입찰정보서비스(1개월)</td>
+            <td>24,750원</td>
+            <td>신용카드</td>
+            <td>결제처리완료</td>
+          </tr>
+          <tr>
+            <td>2012년 01월 13일</td>
+            <td>프리미엄 1:1 분석서비스 - C형</td>
+            <td>300,000원</td>
+            <td>신용카드</td>
+            <td>결제처리완료</td>
+          </tr>
+          <tr>
+            <td>2011년 11월 13일</td>
+            <td>입찰정보서비스(1개월)</td>
+            <td>24,750원</td>
+            <td>신용카드</td>
+            <td>결제처리완료</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="b">
+        <caption>우도입도 총괄요금표</caption>
+        <colgroup></colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="3"></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+        </tfoot>
+      </table>
+      <table>
+        <thead>
+            <tr>
+                <th>주제</th>
+                <th>태그</th>
+                <th>비고</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">테이블의 구성요소</td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>테이블태그</td>
+            </tr>
+            <tr>
+                <td>th</td>
+                <td>테이블의헤더</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>테이블의 행</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>테이블의 열</td>
+            </tr>
+        </tbody>
+      </table>
+</body>
+</html>
